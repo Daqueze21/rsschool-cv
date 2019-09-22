@@ -1,2 +1,2 @@
 # rsschool-cv
-rolling-scopes-school->tasks->git-markdown
+ https://Daqueze21.github.io/rsschool-cv/cv
