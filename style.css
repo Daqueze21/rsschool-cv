@@ -1,0 +1,114 @@
+/* general rules */
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #455;
+
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+#body-container {
+   max-width: 1024px;
+   margin: 0 auto;
+}
+
+#inner {
+   padding: 10px 80px;
+   margin: 80px auto;
+   background: #f9f9f9;
+   border: solid #333;
+   border-width: 10px 0 5px 0;
+}
+
+/* //-- core typography and style -- */
+h2 {
+   text-align: center;
+   font-size: 120%
+}
+
+h3,
+h4 {
+   font-size: 110%;
+}
+
+h5 {
+   font-weight: 600;
+   font-size: 105%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+   text-align: center;
+   color: #333;
+}
+
+p {
+   align: center;
+   font-size: 110%;
+   line-height: 20px;
+   padding-right: 3em;
+   text-align: center;
+}
+
+li {
+   line-height: 24px;
+   border-bottom: 1px solid #ccc;
+   text-align: center;
+}
+
+/* //-- header, main, footer -- */
+/* Header */
+.header {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2.5em;
+   margin-bottom: 1.5em;
+   padding-bottom: 1.5em;
+   border-bottom: 1px solid #ccc
+}
+
+.header h1 {
+   font-size: 48px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   margin: 0;
+}
+
+.header-left {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.header-left_name h2 {
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.header-left_contacts {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.contact_card {
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   height: 30px;
+}
+
+.contact_card h3 {
+   font-size: 14px;
+}
+
+.contact_card p {
+   margin-left: 20px;
+   font-size: 13px;
+}
