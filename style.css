@@ -209,3 +209,26 @@ p.enlarge {
    justify-content: space-between;
    align-items: center;
 }
+
+/*  Footer */
+#footer {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 1em;
+   font-size: 92%;
+   border-top: 1px solid #ccc;
+   text-align: center;
+   align-items: flex-end;
+}
+
+#footer p {
+   text-align: center;
+   vertical-align: bottom;
+   align-items: end;
+}
+
+/* last elem border */
+.last {
+   border-bottom: 0;
+   border: none;
+}
